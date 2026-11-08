@@ -1,0 +1,66 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000001",
+          "briefTitle": "Phase 3 Diabetes Trial in Boston",
+          "officialTitle": "A Phase 3 Study of Drug A in Type 2 Diabetes"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {"date": "2026-11-01"},
+          "primaryCompletionDateStruct": {"date": "2027-06"},
+          "lastUpdatePostDateStruct": {"date": "2026-11-02"}
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": ["PHASE3"],
+          "enrollmentInfo": {"count": 120, "type": "ESTIMATED"}
+        },
+        "conditionsModule": {"conditions": ["Type 2 Diabetes", "Obesity"]},
+        "armsInterventionsModule": {
+          "interventions": [{"type": "DRUG", "name": "Drug A"}]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion: adults with type 2 diabetes. Exclusion: pregnancy."
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Example Pharma", "class": "INDUSTRY"}
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "facility": "Boston Medical",
+              "city": "Boston",
+              "state": "Massachusetts",
+              "zip": "02118",
+              "country": "United States",
+              "status": "RECRUITING",
+              "geoPoint": {"lat": 42.336, "lon": -71.072}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000002",
+          "briefTitle": "Observational asthma registry"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {"date": "2020"}
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL",
+          "phases": ["NA"]
+        },
+        "conditionsModule": {"conditions": ["Asthma"]}
+      }
+    }
+  ],
+  "nextPageToken": "page-2-token",
+  "totalCount": 3
+}

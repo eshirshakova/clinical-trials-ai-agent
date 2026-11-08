@@ -1,0 +1,28 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00000003",
+          "briefTitle": "Influenza vaccine study"
+        },
+        "statusModule": {"overallStatus": "NOT_YET_RECRUITING"},
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": ["PHASE2"]
+        },
+        "conditionsModule": {"conditions": ["Influenza"]},
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "facility": "Paris Clinic",
+              "city": "Paris",
+              "country": "France",
+              "geoPoint": {"lat": 48.85, "lon": 2.35}
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
